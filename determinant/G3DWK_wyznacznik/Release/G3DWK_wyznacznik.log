@@ -1,0 +1,17 @@
+﻿Build started 2016-01-17 21:22:48.
+     1>Project "C:\Users\Krzysztof\Desktop\sd\openmp\G3DWK_wyznacznik\G3DWK_wyznacznik\G3DWK_wyznacznik.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(48): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(75): warning C4101: 'wartosc' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Krzysztof\Desktop\sd\openmp\G3DWK_wyznacznik\Release\G3DWK_wyznacznik.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Krzysztof\Desktop\sd\openmp\G3DWK_wyznacznik\Release\G3DWK_wyznacznik.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Krzysztof\Desktop\sd\openmp\G3DWK_wyznacznik\Release\G3DWK_wyznacznik.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         G3DWK_wyznacznik.vcxproj -> C:\Users\Krzysztof\Desktop\sd\openmp\G3DWK_wyznacznik\Release\G3DWK_wyznacznik.exe
+     1>Done Building Project "C:\Users\Krzysztof\Desktop\sd\openmp\G3DWK_wyznacznik\G3DWK_wyznacznik\G3DWK_wyznacznik.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85
